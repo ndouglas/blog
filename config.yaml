@@ -6,3 +6,4 @@ deployment:
   targets:
     - name: 's3'
       URL: 's3://darkdell.blog?region=us-east-1'
+      cloudFrontDistributionID: 'E3ACQSNDE8NDOY'
