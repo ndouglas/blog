@@ -1,0 +1,8 @@
+baseURL: 'https://blog.darkdell.net/'
+languageCode: 'en-us'
+title: 'Nathan Douglas'
+theme: 'ananke'
+deployment:
+  targets:
+    - name: 's3'
+      URL: 's3://darkdell.blog?region=us-east-1'

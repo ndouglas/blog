@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nathan Douglas</title>
+    <link>https://blog.darkdell.net/</link>
+    <description>Recent content on Nathan Douglas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Apr 2021 08:45:08 -0400</lastBuildDate><atom:link href="https://blog.darkdell.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://blog.darkdell.net/posts/hello-world/</link>
+      <pubDate>Sun, 25 Apr 2021 08:45:08 -0400</pubDate>
+      
+      <guid>https://blog.darkdell.net/posts/hello-world/</guid>
+      <description>Starting a blog to archive the things I work on so that I can find them when I forget how to do the thing like six weeks or six months later.
+Also, hoping to encourage my kid to take up blogging, because I think blogging is an excellent habit for other people to have.</description>
+    </item>
+    
+  </channel>
+</rss>
