@@ -1,6 +1,6 @@
 baseURL: 'https://blog.darkdell.net/'
 languageCode: 'en-us'
-title: 'Nathan Douglas'
+title: 'Missing the Point'
 theme: 'ananke'
 deployment:
   targets:
