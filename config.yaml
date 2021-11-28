@@ -9,3 +9,6 @@ deployment:
       cloudFrontDistributionID: 'E3ACQSNDE8NDOY'
 enableGitInfo: yes
 enableEmoji: yes
+custom_css:
+  - 'css/custom.css'
+custom_js: []
