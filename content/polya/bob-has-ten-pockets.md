@@ -64,23 +64,9 @@ $$ y=\sum_{i=1}^n i-1 $$
 
 (I'm probably screwing that up.  It's been a decade since I've used summation and this is the first time I've ever done anything LaTeX-y.)
 
+![Wolfram Alpha check of summation](/images/screenshot-2021-11-28-12.50.png)
+
 So the real question is: Does Bob have _enough_ coins to put a different number in each pocket.  And the answer is no, he does not.
-
-## Carrying out the Plan
-
-> **Third, _carry out_ your plan.**
-
-> Carrying out your plan of the solution, _check each step_.  Can you see clearly that the step is correct?  Can you prove that it is correct?
-
-## Looking Back
-
-> **Fourth, _examine_ the solution obtained.**
-
-> Can you _check the result_?  Can you check the argument?
-
-> Can you derive the result differently?  Can you see it at a glance?
-
-> Can you use the result, or the method, for some other problem?
 
 # Conclusion
 
