@@ -12,3 +12,21 @@ enableEmoji: yes
 custom_css:
   - 'css/custom.css'
 custom_js: []
+params:
+  mainSections:
+    - posts
+  sectionPagesMenu: 'main'
+menu:
+  main:
+
+  - identifier: 'posts'
+    name: 'Posts'
+    title: 'Posts'
+    url: /posts/
+    weight: -150
+
+  - identifier: 'polya'
+    name: 'How to Solve It'
+    title: 'How to Solve It'
+    url: /polya/
+    weight: -110
