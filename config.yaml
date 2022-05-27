@@ -25,8 +25,3 @@ menu:
     url: /posts/
     weight: -150
 
-  - identifier: 'polya'
-    name: 'How to Solve It'
-    title: 'How to Solve It'
-    url: /polya/
-    weight: -110
