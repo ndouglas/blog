@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet"
+        href="https://rawgit.com/patriciogonzalezvivo/glslEditor/gh-pages/build/glslEditor.css">
+    <script type="application/javascript"
+        src="https://rawgit.com/patriciogonzalezvivo/glslEditor/gh-pages/build/glslEditor.js"></script>
+</head>
+
+<body>
+    <div id="glsl_editor"></div>
+    <script type="text/javascript">
+        window.glslEditor = new window.GlslEditor('#glsl_editor', {
+            canvas_size: 500,
+            canvas_draggable: true,
+            theme: 'monokai',
+            multipleBuffers: true,
+            watchHash: true,
+            fileDrops: true,
+            menu: true
+        });
+        const urlParams = new URLSearchParams(window.location.search);
+        const file = urlParams.get('file');
+		window.glslEditor.open(file,"");		
+        document.body.style.backgroundColor = window.getComputedStyle(glslEditor.editor.getWrapperElement(),null).getPropertyValue('background-color');
+    </script>
+</body>
+
+</html>
