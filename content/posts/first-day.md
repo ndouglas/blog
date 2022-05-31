@@ -22,3 +22,5 @@ So today's my first day of this new plan, and so far it's going fairly well.  Of
 - Couch-to-5K!  My son and I had a water balloon fight today and I turned my right ankle, and I was of course very worried about arthritis pain.  It was not comfortable, but not very painful either.  On the whole, a success.
 
 - Read _Five Lines of Code_.  I got about halfway through this before and really enjoyed it, so I'll read it again.  I think it's a practical and clear take on refactoring, without as theoretical/abstract an approach as e.g. _Design Patterns_.
+
+- _Deepdown_, my little NES game.  After struggling a bit, I managed to get controls working.  The little PC now will turn left and right when those directions are pressed.  Probably the next thing to add would be jumping, but that's going to be substantially more complicated.
