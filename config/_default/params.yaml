@@ -6,31 +6,6 @@ images:
 about:
   enable: false
   param: false
-  paramTitle: 'About Me'
-  description: |
-    [FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog
-    theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.dev). It is based
-    on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), 
-    [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and 
-    [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
-  status:
-    - title: "Company"
-      faIcon: "fas fa-building"
-      desc: "Agile Six"
-    - title: "Occupation"
-      faIcon: "fas fa-briefcase fa-fw"
-      desc: "Software / DevOps engineer"
-    - title: "Location"
-      faIcon: "fas fa-map-marker-alt"
-      desc: "Aurora, Ohio"
-  parameter:
-    - language: 'UI/UX'
-      level: '8'
-    - language: 'HTML'
-      level: '7'
-    - language: 'Go'
-      level: '6'
-
 header:
   title:
     logo: ''
@@ -40,7 +15,7 @@ header:
     typeit: false
 footer:
   enable: true
-  custom: ''
+  custom: "Under heavy construction, please don't hate me."
   hugo: true
   copyright: true
   author: true
