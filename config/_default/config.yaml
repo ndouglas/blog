@@ -1,0 +1,45 @@
+theme: 'feelit'
+baseURL: 'https://blog.darkdell.net/'
+languageCode: 'en-us'
+title: 'Nathan Douglas'
+description: 'Projects, bewilderments, mistakes, cataclysms, etc.'
+author:
+  name: 'Nathan Douglas'
+  email: 'blog@darkdell.net'
+  link: 'https://blog.darkdell.net'
+deployment:
+  targets:
+    - name: 's3'
+      URL: 's3://darkdell.blog?region=us-east-1'
+      cloudFrontDistributionID: 'E3ACQSNDE8NDOY'
+taxonomies:
+  category: categories
+  tag: tags
+enableGitInfo: true
+enableEmoji: true
+custom_css:
+  - 'css/custom.css'
+custom_js: []
+outputs:
+  home:
+    - HTML
+    - JSON
+    - RSS
+markup:
+  highlight:
+    noClasses: false
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,99 @@
+defaultTheme: 'auto'
+version: '1.0.X'
+gitRepo: 'https://github.com/ndouglas/blog.git'
+images:
+  - ''
+about:
+  enable: false
+  param: false
+  paramTitle: 'About Me'
+  description: |
+    [FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog
+    theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.dev). It is based
+    on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), 
+    [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and 
+    [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+  status:
+    - title: "Company"
+      faIcon: "fas fa-building"
+      desc: "Agile Six"
+    - title: "Occupation"
+      faIcon: "fas fa-briefcase fa-fw"
+      desc: "Software / DevOps engineer"
+    - title: "Location"
+      faIcon: "fas fa-map-marker-alt"
+      desc: "Aurora, Ohio"
+  parameter:
+    - language: 'UI/UX'
+      level: '8'
+    - language: 'HTML'
+      level: '7'
+    - language: 'Go'
+      level: '6'
+
+header:
+  title:
+    logo: ''
+    name: 'Nathan Douglas'
+    pre: ''
+    post: ''
+    typeit: false
+footer:
+  enable: true
+  custom: ''
+  hugo: true
+  copyright: true
+  author: true
+  since: 2021
+home:
+  rss: 10
+  profile:
+    enable: true
+    avatarURL: ''
+    subtitle: 'just staggering directionlessly around computers...'
+    typeit: false
+    disclaimer: ''
+    social: true
+    title: 'Missing the Point'
+  posts:
+    enable: true
+    paginate: 6
+section:
+  paginate: 20
+list:
+  paginate: 20
+mainSections:
+  - projects
+page:
+  twemoji: true
+  fraction: true
+  linkToMarkdown: true
+  fontawesome: true
+  toc:
+    enable: true
+    keepStatic: true
+    auto: true
+  code:
+    copy: true
+  share:
+    enable: true
+sectionPagesMenu: 'main'
+social:
+  RSS: true
+  GitHub: 'ndouglas'
+  Linkedin: 'nathan-douglas-101826145/'
+  Reddit: 'nathan_douglas'
+  Goodreads: '162844962-nathan-douglas'
+  Hackernews: 'nathan_douglas'
+  Devto: ''
+  Gitea: ''
+  Matrix: ''
+  Discord: ''
+  DiscordInvite: ''
+  Lichess: ''
+  ORCID: ''
+  Pleroma: ''
+  Kaggle: ''
+  HackTheBox: ''
+  RootMe: ''
+  Email: 'blog@darkdell.net'
