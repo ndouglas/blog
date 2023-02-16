@@ -14,14 +14,14 @@ custom_css:
 custom_js: []
 params:
   mainSections:
-    - posts
+    - projects
   sectionPagesMenu: 'main'
 menu:
   main:
 
-  - identifier: 'posts'
-    name: 'Posts'
-    title: 'Posts'
-    url: /posts/
+  - identifier: 'projects'
+    name: 'Projects'
+    title: 'Projects'
+    url: /projects/
     weight: -150
 
