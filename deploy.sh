@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-hugo -D;
+hugo;
 AWS_PROFILE="s3" hugo deploy;
