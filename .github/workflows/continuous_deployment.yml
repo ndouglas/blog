@@ -15,8 +15,7 @@ jobs:
         uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
       - name: Install Hugo
         run: |
-          sudo apt-get update
-          sudo apt-get install hugo
+          sudo snap install hugo
       - name: Build site
         run: hugo
       - name: Deploy site
