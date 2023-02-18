@@ -1,0 +1,61 @@
+<div class="item">
+  <a href="{{ .RelPermalink }}" class="item-link">
+      {{- .Title -}}
+  </a>
+</div>
+<div class="item">
+<span class="item-subtitle">
+    {{ .Params.subtitle }}
+</span>
+</div>
+<div class="item">
+<span class="item-summary">
+    {{ .Summary }}
+</span>
+</div>
+<div class="item">
+<div class="project-tags">
+  {{- with .Params.categories -}}
+    {{- range $index, $value := . -}}
+      <span>
+        {{- $tag := partialCached "function/path.html" $value $value | printf "/categories/%v" | $.Site.GetPage -}}
+        <a href="{{ $tag.RelPermalink }}">{{ $tag.Title }}</a>
+      </span>
+    {{- end -}}
+  {{- end -}}
+  {{- with .Params.languages -}}
+    {{- range $index, $value := . -}}
+      <span>
+        {{- $tag := partialCached "function/path.html" $value $value | printf "/languages/%v" | $.Site.GetPage -}}
+        <a href="{{ $tag.RelPermalink }}">{{ $tag.Title }}</a>
+      </span>
+    {{- end -}}
+  {{- end -}}
+  {{- with .Params.tags -}}
+    {{- range $index, $value := . -}}
+      <span>
+        {{- $tag := partialCached "function/path.html" $value $value | printf "/tags/%v" | $.Site.GetPage -}}
+        <a href="{{ $tag.RelPermalink }}">{{ $tag.Title }}</a>
+      </span>
+    {{- end -}}
+  {{- end -}}
+</div>
+</div>
+<div class="item">
+<span class="item-links">
+  <a href="{{ .Params.repo_url}}" title="Source">
+    <span class="fab fa-github-alt fa-fw"></span>
+  </a>
+  <a href="{{ .Params.docs_url}}" title="Documentation">
+    <span class="fas fa-book"></i>
+  </a>
+  <a href="{{ .Params.demo_url}}" title="Demo">
+    <span class="fas fa-tv"></i>
+  </a>
+</span>
+</div>
+<div class="item">
+  <span class="item-date">
+    Created&nbsp;on&nbsp;{{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format -}}
+  </span>
+</div>
